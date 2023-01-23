@@ -31,4 +31,12 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * speed);
     }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.CompareTag("Pickup"))
+        {
+            collider.gameObject.SetActive(false);
+        }
+    }
 }
