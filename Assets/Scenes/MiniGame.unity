@@ -596,7 +596,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.52597016, g: 0.09411765, b: 0.9529412, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1935,7 +1935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd4772d56a504e49810cd831777f97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
   countText: {fileID: 699351730}
   winTextObject: {fileID: 1404998777}
 --- !u!1 &1830858290
